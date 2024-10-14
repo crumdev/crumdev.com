@@ -1,0 +1,15 @@
+lsi: false
+safe: true
+source: "src/"
+destination: ./_site
+incremental: false
+highlighter: rouge
+theme: minima
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
